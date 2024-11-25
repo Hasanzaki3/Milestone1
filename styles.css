@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #cdcccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+h2 {
+  color: #007acc;
+  font-size: 1.4em;
+}
+
+.skill {
+  background: #007acc;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skill:hover {
+  background: #005999;
+}
+
+#toggle-skills-btn {
+  margin-top: 10px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-skills-btn:hover {
+  background: #e64a19;
+}
